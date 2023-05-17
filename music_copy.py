@@ -9,7 +9,7 @@ import webbrowser
 from googleapiclient.discovery import build
 import IPython
 
-api_key = 'AIzaSyByg_p8jT-RahrQcJT6Fh4L75-RQmEO9qU'
+api_key = 'ENTER_YOUR_API_KEY'
 youtube = build('youtube', 'v3', developerKey=api_key)
 model = load_model("model.h5")
 label = np.load("labels.npy")
